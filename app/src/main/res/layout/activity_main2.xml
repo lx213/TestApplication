@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lx.test.testapplication.MainActivity">
+
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/jj_imb_main"
+        android:background="@drawable/map_jj"
+        android:layout_marginLeft="23dp"
+        style="@style/main_map" />
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/yc_imb_main"
+        android:background="@drawable/map_yc"
+        android:layout_below="@id/jj_imb_main"
+        android:layout_alignLeft="@id/jj_imb_main"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="-3dp"
+        style="@style/main_map" />
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/px_imb_main"
+        android:background="@drawable/map_px"
+        android:layout_below="@id/yc_imb_main"
+        android:layout_alignLeft="@id/yc_imb_main"
+        android:layout_marginTop="-43dp"
+        android:layout_marginLeft="-20dp"
+        style="@style/main_map" />
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/nc_imb_main"
+        android:background="@drawable/map_nc"
+        android:layout_below="@id/jj_imb_main"
+        android:layout_alignRight="@id/jj_imb_main"
+        android:layout_marginTop="-42dp"
+        android:layout_marginRight="22.5dp"
+        style="@style/main_map" />
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/sr_imb_main"
+        android:background="@drawable/map_sr"
+        android:layout_alignTop="@id/jj_imb_main"
+        android:layout_toRightOf="@id/jj_imb_main"
+        android:layout_marginTop="32.2dp"
+        android:layout_marginLeft="-47.4dp"
+        style="@style/main_map" />
+
+</RelativeLayout>

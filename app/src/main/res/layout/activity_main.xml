@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lx.test.testapplication.MainActivity">
+
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/jj_imb_main"
+        android:background="@drawable/map_jj"
+        app:layout_widthPercent="57.2%"
+        app:layout_heightPercent="22.6%"
+        app:layout_marginLeftPercent="6.3%"
+        style="@style/main_map" />
+
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/sr_imb_main"
+        android:background="@drawable/map_sr"
+        app:layout_widthPercent="42.7%"
+        app:layout_heightPercent="31%"
+        app:layout_marginLeftPercent="50.2%"
+        app:layout_marginTopPercent="5.8%"
+        style="@style/main_map" />
+
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/yc_imb_main"
+        android:background="@drawable/map_yc"
+        app:layout_widthPercent="43%"
+        app:layout_heightPercent="25.35%"
+        app:layout_marginLeftPercent="5.6%"
+        app:layout_marginTopPercent="15.7%"
+        style="@style/main_map" />
+
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/px_imb_main"
+        android:background="@drawable/map_px"
+        app:layout_widthPercent="43%"
+        app:layout_heightPercent="25.35%"
+        app:layout_marginTopPercent="33.5%"
+        style="@style/main_map" />
+
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/px_imb_main2"
+        android:background="@drawable/map_px"
+        app:layout_marginTopPercent="33.5%"
+        style="@style/main_map2" />
+
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/jdz_imb_main"
+        android:background="@drawable/map_jdz"
+        app:layout_marginLeftPercent="58.8%"
+        app:layout_marginTopPercent="2%"
+        style="@style/main_map" />
+
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/nc_imb_main"
+        android:background="@drawable/map_nc"
+        app:layout_marginLeftPercent="32%"
+        app:layout_marginTopPercent="17%"
+        style="@style/main_map" />
+
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/yt_imb_main"
+        android:background="@drawable/map_yt"
+        app:layout_marginLeftPercent="54.1%"
+        app:layout_marginTopPercent="25.9%"
+        style="@style/main_map" />
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/fz_imb_main"
+        android:background="@drawable/map_fz"
+        app:layout_marginLeftPercent="35%"
+        app:layout_marginTopPercent="29.8%"
+        style="@style/main_map" />
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/xy_imb_main"
+        android:background="@drawable/map_xy"
+        app:layout_marginLeftPercent="15.5%"
+        app:layout_marginTopPercent="35.1%"
+        style="@style/main_map" />
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/ja_imb_main"
+        android:background="@drawable/map_ja"
+        app:layout_marginLeftPercent="4.3%"
+        app:layout_marginTopPercent="37.8%"
+        style="@style/main_map" />
+    <com.lx.test.testapplication.IrregularImageButton
+        android:id="@+id/gz_imb_main"
+        android:background="@drawable/map_gz"
+        app:layout_marginLeftPercent="4.3%"
+        app:layout_marginTopPercent="47.8%"
+        style="@style/main_map" />
+
+</android.support.percent.PercentRelativeLayout>
